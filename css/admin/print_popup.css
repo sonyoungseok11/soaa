@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* reset */
+body {margin:0;padding:0;font-family:'nanumbarun_gothic',sans-serif, Arial;font-size:11px;color:#333}
+adress, article, aside,figure,footer, header, hgroup, menu, nav, section{display:block}
+a{text-decoration:none;color:#333}
+ul, li {list-style:none}
+html{overflow-x:auto;overflow-y:scroll;min-height:1000px;}
+.clear{clear:both;margin:0;padding:0}
+img {border:0;outline:none}/*ie에서 border 삭제*/
+address{font-style:normal}
+.hidden{display:none}
+legend {width:0;height:0;display:block;text-ident:-9999px;overflow:hidden}
+
+select {border:1px solid #c1c1c1;padding:2px 3px}
+#wrap {width:450px;overflow:hidden;margin:20px auto}
+
+/* popup_tbl */
+.popup_tbl {margin-top:10px;width:100%;overflow:hidden}
+.popup_tbl table {width:100%;border-collapse:collapse;border-spacing:0}
+.popup_tbl .tbl_tlt {background:#eaeaea;border:1px solid #e1e1e1;padding:10px 0 10px 30px;font-size:12.5px}
+.popup_tbl .tbl_con {background:#fefefe;border:1px solid #e8e8e8;padding:10px;font-size:12px}
+.num {margin:0 5px 0 3px}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* reset */
+body {margin:0;padding:0;font-family:'nanumbarun_gothic',sans-serif, Arial;font-size:15px;color:#333}
+adress, article, aside,figure,footer, header, hgroup, menu, nav, section{display:block}
+a{text-decoration:none;color:#333}
+ul, li {list-style:none}
+html{overflow-x:auto;overflow-y:scroll;min-height:1000px;}
+.clear{clear:both;margin:0;padding:0}
+img {border:0;outline:none}/*ie에서 border 삭제*/
+address{font-style:normal}
+.hidden{display:none}
+legend {width:0;height:0;display:block;text-ident:-9999px;overflow:hidden}
+
+/* wrap */
+#wrap {width:650px;margin:100px 0 0 50px;}
+
+
+/* document */
+.no6style {font-size:12px}
+.document {margin:40px 0 25px 0;font-size:18px;text-align:center;font-weight:bold;}
+.tbl_left_comment{font-size:12px;float:left}
+.tbl_right_comment{font-size:12px;float:right}
+
+.tbl01 {width:650px;margin-top:10px;line-height:20px;font-size:14px;}
+.tbl03 {width:650px;line-height:20px;font-size:14px;}
+
+
+.title{font-size:30px; font-weight:bold;text-align:center;}
+.document_left {font-size:18px;margin-bottom:5px;}
+.document_right {margin-top:10px;font-size:18px;text-align:right}
+
+/* TBL 01 */
+.tbl01_left {width:75px;text-align:center;border-top:2px solid #000000;border-bottom:2px solid #000000;}
+.c_ceo_nm{width:220px;border-top:2px solid #000000;border-left:1px solid #6c6c6c;border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.c_rrn1{width:300px;border-top:2px solid #000000;border-left:1px solid #6c6c6c;border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.c_corp_nm{border-left:1px solid #6c6c6c;border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.c_tel{border-top:1px solid #6c6c6c;border-left:1px solid #6c6c6c;border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.c_addr{border-left:1px solid #6c6c6c;border-bottom:2px solid #000000;padding-top:3px;padding-left:5px;}
+.gubun{border-left:1px solid #6c6c6c;border-bottom:2px solid #000000;padding-top:3px;padding-left:5px;}
+.chkStats {float:middle;margin-left:50px;font-size:15px;}
+.tbl01_content{padding-left:15px;}
+/* TBL 01 */
+
+.h15 {margin-top:10px;}
+
+
+/* TBL 02 */
+.acceptNo{width:320px;border-top:2px solid #000000;border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.cate{width:320px;border-top:2px solid #000000;border-left:1px solid #6c6c6c;border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.outdoor_addr{border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.size{border-top:1px solid #6c6c6c;border-left:1px solid #6c6c6c;border-bottom:1px solid #6c6c6c;padding-top:3px;padding-left:5px;}
+.reg_date{border-bottom:2px solid #000000;padding-top:3px;padding-left:5px;}
+.chk_date{border-left:1px solid #6c6c6c;border-bottom:2px solid #000000;padding-top:3px;padding-left:5px;}
+.tbl03_content{padding-left:15px;line-height:30px}
+/* TBL 02 */
+
+/* TBL 03 */
+.chkContent{width:320px;border-top:2px solid #000000;border-bottom:1px solid #6c6c6c;padding:3px 0 10px 5px;background-color:#8e8e8e;}
+.chkComment{width:320px;border-top:1px solid #000000;border-bottom:1px solid #6c6c6c;padding:3px 0 10px 5px;background-color:#8e8e8e}
+.chkResult1{border-top:1px solid #000000;border-bottom:2px solid #000000;padding:3px 0 10px 5px;background-color:#8e8e8e;}
+.chkResult2{float:left;}
+.chkResult3{margin-left:250px;background-color:#8e8e8e;}
+/* TBL 03 */
+
+.content_comment{font-size:13px;text-align:left; letter-spacing:3px;padding-top:40px;line-height:25px}
+
+.chk_year {font-size:13px;text-align:right;margin-top:50px;margin-bottom:30px;}
+.chk_confirm {float:left;text-align:left;margin-left:80px;font-size:15px;}
+.chk_position {float:left;margin-left:200px}
+.chk_person_nm {margin-top:80px;margin-left:350px;letter-spacing:35px}
+.chk_person_nm_sign {text-align:right;margin-top:-15px;margin-bottom:60px}
+
+.line {width:100%;overflow:hidden;margin:20px 0;border:1.5px solid #383838;}

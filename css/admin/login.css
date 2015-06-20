@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* reset */
+body {margin:0;padding:0;font-family:'nanumbarun_gothic',sans-serif, Arial;font-size:12px;color:#333}
+adress, article, aside,figure,footer, header, hgroup, menu, nav, section{display:block}
+a{text-decoration:none;color:#333}
+ul, li {list-style:none}
+html{overflow-x:hidden;overflow-y:scroll}
+.clear{clear:both;margin:0;padding:0}
+img {border:0;outline:none}/*ie에서 border 삭제*/
+address{font-style:normal}
+.hidden{display:none}
+legend {width:0;height:0;display:block;text-ident:-9999px;overflow:hidden}
+
+/* wrap */
+#wrap {overflow:hidden;margin:0 auto;position:relative}
+#wrap .block {width:100%;height:40px;background:#768f58;position:absolute;left:0;top:70px;}
+
+/* header */
+.header {width:1600px;height:100px;margin:10px auto 0;position:relative}
+.ci {width:215px;height:50px;float:left;margin:5px 0 5px 230px}
+.header_txt{width:215px;height:40px;color:#fff;text-align:center;line-height:40px;font-size:15px;letter-spacing:5px;margin-left:240px}
+
+/* content */
+.content {width:420px;overflow:hidden;margin:200px auto}
+form {width:410px;height:auto;margin:30px auto}
+.bg {width:410px;overflow:hidden;background-color:#fefefe;border:2px solid #768f58}
+.title {font-size:32px;font-family:'nanumbarungothic_Bold',sans-serif;color:#768f58;letter-spacing:2px;margin:25px 0 10px 0;text-align:center}
+.txt_unit {display:inline-block;float:left;margin:10px 0 0 30px;font-weight:bold;}
+.left_txt {margin-top:8px;color:#787878;font-size:13px;letter-spacing:1px}
+.right_btn {display:inline-block;float:right;margin:15px 30px 0 0}
+.w150 {width:150px;margin-left:10px}
+.m_left23 {margin-left:23px}
+.tip {width:100%;height:35px;margin-top:40px;background:#768f58;color:#fcfcfc;line-height:35px;font-size:14px;text-align:center;letter-spacing:2px}
+#id, #pwd {width:150px;margin-left:10px;vertical-align:1px !important}
+#pwd {margin-top:5px}
+#submit_btn {padding:16px 20px;border:1px solid #e9f4d4;font-size:16px;font-family:'nanumgothic_Bold',sans-serif;color:#fff;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;letter-spacing:2px;background:#768f58;background:-webkit-gradient(linear, left top, left bottom, from(#768f58), to(#85a56b));background:-moz-linear-gradient(top, #768f58, #85a56b); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768f58', endColorstr='#85a56b');color:#fff;font-size:16px}
+#submit_btn:hover {background:#85a56b;background:-webkit-gradient(linear, left top, left bottom, from(#85a56b), to(#768f58));background:-moz-linear-gradient(top, #85a56b, #768f58); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#85a56b', endColorstr='#768f58')}

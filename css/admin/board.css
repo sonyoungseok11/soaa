@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+input[type="text"], select {border:1px solid #c1c1c1;padding:2px 3px;vertical-align:middle}
+
+/* con_search */
+.con_search {width:100%;overflow:hidden;margin:10px 0;}
+.con_search table {width:600px}
+.con_search table td {border:1px solid #e1e1e1;padding-top:8px;padding-bottom:8px}
+.con_search_title {width:135px;background:#eaeaea;font-size:12px;text-align:center;font-weight:bold;letter-spacing:2px}
+.con_search_con {font-size:12px;padding-left:10px;background:#fefefe}
+.con_choose {margin:0 5px}
+.txt_con {margin-right:10px}
+.search,.refresh {vertical-align:middle}
+.refresh {margin-left:10px}
+
+/* receive_table */
+.board_table {margin-top:20px;width:100%;overflow:hidden}
+.board_table table {width:100%}
+.board_table th {background:#eaeaea;border:1px solid #e1e1e1;padding:5px 0;font-size:12px}
+.board_table td {background:#fefefe;border:1px solid #e8e8e8;padding-top:6px;padding-bottom:6px}
+
+/* table 정렬 */
+.modify img,.del img {vertical-align:middle}
+.choose,.reg_date,.modify,.del {text-align:center}
+.con_subject,.writer,.hit {padding-left:20px}
+
+/* arrow_navi */
+.arrow_navi {width:100%;overflow:hidden;margin-top:30px;text-align:center}
+.arrow_navi ul {display:inline-block}
+.arrow_navi ul li {float:left;padding:8px 9px 5px 9px;margin:0 10px;background:#f1f1f1;border:1px solid #c1c1c1}
+.arrow_navi ul li:hover {border:1px solid #fff;background:#fff;}
+.arrow_navi ul li:hover a {font-weight:bold;color:#484848}
+.arrow_navi li a {color:#555;font-size:12px}
+.arrow_navi img {vertical-align:5px}
+.before {margin:0 10px}
+.next {margin:0 10px}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* reset */
+body {margin:0;padding:0;font-family:'nanumbarun_gothic',sans-serif, Arial;font-size:12px;color:#333}
+adress, article, aside,figure,footer, header, hgroup, menu, nav, section{display:block}
+a{text-decoration:none;color:#333}
+ul, li {list-style:none}
+html{overflow-x:auto;overflow-y:scroll;min-height:1000px;}
+.clear{clear:both;margin:0;padding:0}
+img {border:0;outline:none}/*ie에서 border 삭제*/
+address{font-style:normal}
+.hidden{display:none}
+legend {width:0;height:0;display:block;text-ident:-9999px;overflow:hidden}
+
+/* wrap */
+#wrap {width:794px;height:1123px;margin:30px auto}
+
+/* document */
+.document {width:680px;height:895px;margin:114px 57px}
+.top_txt {width:100%;text-align:center;font-size:14px;letter-spacing:2px}
+.soaa {width:100%;text-align:center;font-family:'nanumbarungothic_Bold',sans-serif,arial;font-size:26px;margin-top:5px;letter-spacing:3px}
+.ci {vertical-align:middle;margin-right:15px}
+.choice {width:100%;overflow:hidden;margin-top:50px}
+.choice_txt {margin-top:10px;font-size:14px;letter-spacing:2px}
+.line {width:100%;overflow:hidden;margin:20px 0;border:1px solid #383838;}
+.contents {width:100%;overflow:hidden}
+.con1,.con2 {width:100%;overflow:hidden}
+.con1_txt {font-size:14px;margin-bottom:20px}
+.con2 {margin-top:250px}
+.con2_left,.con2_right {display:inline-block;float:left;font-size:14px}
+.con2_left {letter-spacing:5px}
+.con2_right {margin-left:5px}
+.con2_txt {margin-top:10px}
+.con2_txt:first-child {margin-top:0}
+.sign_part {width:100%;overflow:hidden;margin-top:100px}
+.sign_txt {font-size:30px;font-family:'nanumbarungothic_Bold',sans-serif,arial;letter-spacing:3px}
+.sign {margin-left:80px;letter-spacing:20px}
+.bottom {width:100%;overflow:hidden}
+.bottom_txt {margin-top:15px;font-size:14px;letter-spacing:1px}
+.bottom_gap1 {margin-left:50px;}
+.bottom_gap2 {margin-left:200px;}
+.bottom_gap3 {margin-left:120px;}
+.gap_bar {vertical-align:middle;margin:0 25px}

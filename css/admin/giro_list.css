@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+input[type="text"], select {border:1px solid #c1c1c1}
+select {padding:2px 3px}
+
+/* con01 */
+.con01 {width:100%;height:auto;margin:0 auto}
+.con01 table{margin-top:5px;width:100%}
+.con01_title {width:10%;padding:8px 0;text-align:center;font-size:14px;background:#eaeaea;color:#696969;border:1px solid #e0e0e0}
+.con01_cons {width:76.5%;padding:8px 0 8px 10px;border:1px solid #e0e0e0;font-size:13px}
+.period_paid {width:100%;overflow:hidden;}
+.period_reg {width:100%;margin-top:5px;overflow:hidden;}
+.click_btn {width:13%;padding:8px 0;border:1px solid #e0e0e0;text-align:center}
+.c_btn_srh,.refresh {display:block;margin:0 auto}
+.refresh {margin-top:10px}
+.w90 {width:90px;padding:2px 3px;vertical-align:middle}
+.mar {margin:0 15px 0 5px}
+.m_left {margin-left:5px}
+.con01_guchung {margin:0 5px}
+.con01_gubun {margin:0 10px 0 5px}
+.minibar {margin:0 8px}
+
+/* con02 */
+.con02 {width:100%;height:auto;margin:30px auto 0}
+.receive {width:100%;overflow:hidden}
+.paging {font-size:14px;margin-top:15px}
+.data_num {margin:0 5px 0 10px}
+.paging_search {float:right;margin-right:10px}
+.total_search {font-size:12px;float:right;margin-right:10px;color:#e30c21}
+
+.paging_modify {width:100%;overflow:hidden}
+.p_mod {width:100%;height:auto;padding:10px 0 10px 10px;background:#e9ecdc}
+.p_mod_bar {margin:0 15px}
+.m_lr {margin-left:5px }
+.m_right {margin:0 5px}
+.total_search {font-size:12px;float:right;margin-right:10px;color:#e30c21}
+.deposit_account {margin-left:10px;padding:2px 3px}
+.non_result {text-align:center; font-weight:bold;font-size:20px;color:#db1c1c}
+
+/* receive_table */
+.receive_table {margin-top:10px;width:100%;overflow:hidden}
+.receive_table table {width:100%}
+.receive_table th {background:#eaeaea;border:1px solid #e1e1e1;padding:10px 0;font-size:12px}
+.receive_table td {background:#fefefe;border:1px solid #e8e8e8;padding-top:6px;padding-bottom:6px}
+
+/* table 정렬 */
+.refund,.corp_name,.name,.damdang_gu,.chk_yn {padding-left:20px}
+.modify,.del,.gubun,.deposit_date,.phone {text-align:center}
+.modify img, .del img {vertical-align:middle}
+.bold {font-weight:bold;margin-left:3px}
+.cash {text-align:right;padding-right:10px}
+
+/* submit_btn */
+.btns {width:100%;overflow:hidden;margin:30px 0;text-align:right}
+#submit_btn01 {float:right;margin-bottom:10px;background:#fcfcfc;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));background:-moz-linear-gradient(top, #fff, #ededed); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');color:#666;border:solid 1px #bebebe;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;padding:6px 10px;cursor:pointer;font-family:'nanumgothic_Bold',sans-serif;letter-spacing:2px;font-size:12px}
+#submit_btn01:hover {background:#f5f6f5;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));background:-moz-linear-gradient(top, #fff, #dcdcdc); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc')}
+#submit_btn02 {margin:0px 15px 10px 0px;background:#fcfcfc;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));background:-moz-linear-gradient(top, #fff, #ededed); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');color:#666;border:solid 1px #bebebe;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;padding:6px 10px;cursor:pointer;font-family:'nanumgothic_Bold',sans-serif;letter-spacing:2px;font-size:12px}
+#submit_btn02:hover {background:#f5f6f5;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));background:-moz-linear-gradient(top, #fff, #dcdcdc); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc')}
+#submit_btn02 {margin-left:15px}
+#submit_btn03 {background:#3986cd;background:-webkit-gradient(linear, left top, left bottom, from(#469ae6), to(#3986cd));background:-moz-linear-gradient(top, #469ae6, #3986cd); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#469ae6', endColorstr='#3986cd');color:#fff;border:solid 1px #4289c9;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;padding:6px 8px;cursor:pointer;font-family:'nanumgothic_Bold',sans-serif;letter-spacing:2px;font-size:12px}
+#submit_btn03:hover {background:#469ae6;background:-webkit-gradient(linear, left top, left bottom, from(#3986cd), to(#469ae6));background:-moz-linear-gradient(top, #3986cd, #469ae6); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3986cd', endColorstr='#469ae6')}
+
+
+
+
+

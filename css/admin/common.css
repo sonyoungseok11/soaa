@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* reset */
+body {margin:0;padding:0;font-family:'nanumbarun_gothic',sans-serif, Arial;font-size:11px;color:#333}
+adress, article, aside,figure,footer, header, hgroup, menu, nav, section{display:block}
+a{text-decoration:none;color:#333}
+ul, li {list-style:none}
+html{overflow-x:auto;overflow-y:scroll;min-height:1000px;}
+.clear{clear:both;margin:0;padding:0}
+img {border:0;outline:none}/*ie에서 border 삭제*/
+address{font-style:normal}
+.hidden{display:none}
+legend {width:0;height:0;display:block;text-ident:-9999px;overflow:hidden}
+
+/* wrap */
+#wrap {overflow:hidden;margin:0 auto;position:relative}
+#wrap .block {width:100%;height:35px;background:#768f58;position:absolute;left:0;top:70px;}
+
+/* header */
+.header {width:1600px;height:90px;margin:10px auto 0;position:relative}
+.ci {width:216px;height:50px;float:left;margin:5px 0 5px 230px}
+.top{width:1600px;height:50px;position:absolute;left:0;top:0} 
+.top_menu {float:right}
+.top_menu li img {vertical-align:3px;margin-right:6px}
+.top_menu li {float:left;background:url(../../img/mini_bar.png) no-repeat 0 2px;padding:0 15px}
+.top_menu li:first-child {background:none}
+.top_menu li a {font-family:'nanum_gothic',sans-serif;color:#9B927E}
+.top_menu li a:hover {border-bottom:1px solid #a5a5a5;padding-bottom:0.5px;color:#a5a5a5}
+
+/* side_menu */
+.side_menu {width:1600px;overflow:hidden;position:absolute;left:0;top:60px}
+.side_menu ul {width:300px;overflow:hidden;margin-left:230px}
+.side_menu ul li {float:left;margin-left:10px;height:35px}
+.side_menu ul li:first-child {margin:0}
+.side_menu li a {display:block;line-height:35px;padding:0 10px;color:#fff;border:none;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;-o-border-radius:2px;font-size:12.5px}
+.side_menu li a:hover {background:#d2ddbf;color:#484848}
+.side_menu li.click a{background:#d2ddbf;color:#484848}
+
+/* section */
+#section {overflow:hidden;margin:20px auto;}
+
+/* lnb */
+.lnb {width:150px;overflow:hidden;float:left;margin-left:10px}
+.lnb_title {margin:10px 0 10px 15px;font-family:'nanumbarun_gothic',sans-serif;color:#585858;font-size:16px}
+.lnb ul {width:10%}
+.lnb ul li a {width:135px;display:inline-block;padding:6px 0 6px 15px;font-family:'nanumbarun_gothic',sans-serif;letter-spacing:1px;background:#fefefe;color:#5d5d5d}
+.lnb ul li a:hover {background:#d2ddbf;color:#555}
+.lnb ul li.click a{background:#d2ddbf;color:#555}
+.bg_catch {width:135px;background:#768f58;color:#fefefe;margin:3px 0;padding:8px 0 8px 15px;font-family:'nanumbarun_gothic',sans-serif;font-size:12.5px;letter-spacing:1px;border:none;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px}
+.bg_catch img {margin-right:5px}
+
+/* contents */
+.contents {overflow:hidden;padding-left:30px;}
+.contents_con {overflow:hidden;padding:10px;border-top:2px solid #d4deb0;border-left:2px solid #d4deb0}
+.top_unit {overflow:hidden}
+.inner_jump {display:inline-block;float:right;margin:10px 5px 10px 0}
+.first {font-weight:bold;color:#555650}
+.inner_jump a {font-size:11.5px;color:#7d7d7d}
+.inner_jump a:first-child:hover {border:0}
+.inner_jump a:hover {color:#3786bc;border-bottom:1px solid #3786bc;padding-top:1.5px}
+.contop_title {overflow:hidden;font-family:'nanumgothic_Bold',sans-serif;font-size:15px;color:#565656;margin-top:20px}
+.contop_title img {vertical-align:middle;margin-right:5px}
+.contop_tip {margin-left:10px;font-size:12px;color:#999}
+.line {border-top:2px solid #e2e1e1;margin-top:10px}
+.contain {width:99%;overflow:hidden;margin:10px auto}
+
+/* info_notice */
+.info_notice {float:right;margin-right:10px}
+.info_notice img {vertical-align:middle}
+
+/* arrow_navi */
+.arrow_navi {width:100%;overflow:hidden;margin-top:30px;text-align:center}
+.arrow_navi ul {display:inline-block}
+.arrow_navi ul li {float:left}
+.arrow_navi ul li a {display:block;color:#484848;font-weight:bold;font-size:12px;padding:8px 9px 5px 9px;background:#f1f1f1;border:1px solid #c1c1c1;margin:0 10px;}
+.arrow_navi ul li:hover a {border:1px solid #fff;background:#fff;font-weight:bold}
+.arrow_navi ul li.click a {border:1px solid #fff;background:#fff;font-weight:bold}
+.arrow_navi img {vertical-align:5px}
+.before {margin:0 10px}
+.next {margin:0 10px}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* reset */
+body {margin:0;padding:0;font-family:'nanumbarun_gothic',sans-serif, Arial;font-size:15px;color:#333}
+adress, article, aside,figure,footer, header, hgroup, menu, nav, section{display:block}
+a{text-decoration:none;color:#333}
+ul, li {list-style:none}
+html{overflow-x:auto;overflow-y:scroll;min-height:1000px;}
+.clear{clear:both;margin:0;padding:0}
+img {border:0;outline:none}/*ie에서 border 삭제*/
+address{font-style:normal}
+.hidden{display:none}
+legend {width:0;height:0;display:block;text-ident:-9999px;overflow:hidden}
+
+/* wrap */
+#wrap {width:715px;margin:30px auto;}
+
+/* document */
+.tbl {width:100%;border:1px solid #000000; margin-top:15px;margin-left:7px;margin-right:30px;line-height:70px}
+.tbl01 {width:100%;font-size:15px;border:1px solid #000000;margin-left:7px;margin-right:30px;text-align:center;line-height:35px;}
+
+.title{font-size:25px; font-weight:bold;text-align:center;}
+.document_left {font-size:18px;text-align:left;}
+.document_right {margin-top:10px;font-size:18px;text-align:right;}
+
+.left {width:20px;border:1px solid #000000;}
+.sub_title {width:70px;border:1px solid #000000;}
+.sub_title07{width:70px;border:1px solid #000000; line-height:35px;}
+.content_comment{text-align:left;padding-left:30px; letter-spacing:3px; margin-bottom:15px}
+
+/*
+.sub_title08{width:80px;border:1px solid #000000; line-height:35px;}
+.sub_title09{width:80px;border:1px solid #000000; line-height:35px;}
+.sub_title10{width:80px;border:1px solid #000000; line-height:35px;}
+*/
+
+.h15{margin-top:15px}
+.blank{width:130px;border:1px solid #000000;}
+
+.chk_year{text-align:center;}
+.chk_confirm{text-align:right;margin-right:80px}
+.chk_guoffice {float:left;font-size:25px;text-align:left;margin:0 0 20px 10px;letter-spacing:10px;}
+.chk_guoffice_to{float:left;}
+
+.guoffice_Bold{}

@@ -1,0 +1,35 @@
+@charset "utf-8";
+input[type="text"], select, textarea {border:1px solid #ddd}
+/* width */
+.w50 {width:50px;padding:2px 5px}
+.w80 {width:80px;padding:2px 5px}
+.w100 {width:100px;padding:2px 5px;margin-right:5px}
+.w130 {width:100px;padding:2px 5px;margin-left:5px}
+.w180 {width:180px;padding:2px 5px}
+.w350 {width:350px;padding:2px 5px;margin-left:10px}
+
+/* receive_table */
+.receive_table {margin-top:10px;width:100%;overflow:hidden}
+.receive_table table {width:100%}
+.receive_table td {border:1px solid #ddd;padding-top:6px;padding-bottom:6px}
+.con_title {width:10%;background:#efefef;padding-left:20px;font-size:12px;line-height:2}
+.con_content01 {width:35%;background:#f9f9f9;padding-left:10px} 
+.con_content02 {width:41%;background:#f9f9f9;padding-left:10px} 
+.con_apart01 {width:5%;background:#efefef;padding-left:25px;line-height:2}
+.con_apart02 {width:5%;background:#efefef;padding:0 10px}
+.bg_f9 {background:#f9f9f9;padding-left:10px}
+.dong_name {width:100%;font-size:12px;color:#585858;margin-top:5px}
+.dong_name img {vertical-align:middle;margin:0 10px 0 5px;}
+.addr {width:100%;margin:10px 0 5px 0}
+.search_tip {color:#0b57ab}
+textarea {width:97%;background-color:transparent;overflow-x:hidden;overflow-y:auto;margin:5px 0;padding:10px;resize:none;wrap:hard;line-height:1.6}
+.mar {margin:0 5px}
+.mar_lr {margin:0 3px 0 15px;vertical-align:middle}
+.m_left0 {margin-left:0}
+
+/* submit_btn */
+.btns {width:100%;height:auto;margin:20px 0 0 10px}
+#submit_btn02 {margin-left:20px}
+.receive_btn {width:100%;text-align:center}
+#submit_btn01,#submit_btn02,#submit_btn03 {background:#fcfcfc;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));background:-moz-linear-gradient(top, #fff, #ededed); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');color:#666;border:solid 1px #bebebe;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;padding:8px 15px;cursor:pointer;font-family:'nanumgothic_Bold',sans-serif;font-size:14px;letter-spacing:2px}
+#submit_btn01:hover,#submit_btn02:hover,#submit_btn03:hover {background:#f5f6f5;background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));background:-moz-linear-gradient(top, #fff, #dcdcdc); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc')}

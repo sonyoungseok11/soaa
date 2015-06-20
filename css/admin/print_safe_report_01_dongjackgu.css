@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* reset */
+body {margin:0;padding:0;font-family:'nanumbarun_gothic',sans-serif, Arial;font-size:15px;color:#333}
+adress, article, aside,figure,footer, header, hgroup, menu, nav, section{display:block}
+a{text-decoration:none;color:#333}
+ul, li {list-style:none}
+html{overflow-x:auto;overflow-y:scroll;min-height:1000px;}
+.clear{clear:both;margin:0;padding:0}
+img {border:0;outline:none}/*ie에서 border 삭제*/
+address{font-style:normal}
+.hidden{display:none}
+legend {width:0;height:0;display:block;text-ident:-9999px;overflow:hidden}
+
+/* wrap */
+#wrap {width:650px;margin:30px auto;}
+
+/* document */
+
+
+/*
+.document_left {margin-top:20px;text-align:left;}
+.document_left1{font-size:18px;float:left;text-align:left;}
+.document_left2{font-size:18px;text-align:right;}
+*/
+
+.document_left {margin-top:70px;text-align:left;}
+.document_left1 {font-size:18px;float:left;text-align:left;}
+.document_left2 {font-size:18px;text-align:right;}
+.document_right {margin-top:40px;font-size:18px;text-align:right;}
+
+.tbl {width:100%;border:1px solid #000000; margin-top:15px;margin-left:15px;line-height:70px}
+.tbl01 {width:100%;font-size:15px;border:1px solid #000000;margin-left:15px;text-align:center;}
+
+.title{font-size:25px;font-weight:bold;text-align:center;line-height:85px}
+
+
+
+
+.left {width:20px;border:1px solid #000000;}
+.sub_title {width:70px;border:1px solid #000000;padding-top:12px;padding-bottom:12px}
+/*.sub_title07{width:70px;border:1px solid #000000;}*/
+.content_comment{font-size:16px;text-align:left;padding-left:30px; letter-spacing:3px; margin-bottom:15px;line-height:30px}
+
+/*
+.sub_title08{width:80px;border:1px solid #000000; line-height:35px;}
+.sub_title09{width:80px;border:1px solid #000000; line-height:35px;}
+.sub_title10{width:80px;border:1px solid #000000; line-height:35px;}
+*/
+
+.margin_top_h15{margin-top:15px}
+.padding_L20{padding-left:20px}
+.blank{width:130px;border:1px solid #000000;}
+
+.chk_year{text-align:center;margin-top:50px;padding-left:200px;font-size:20px}
+
+.chk_confirm{clear:both;text-align:left;margin-top:35px;padding-left:30px;}
+.chk_confirm .chk_confirm_left{font-size:20px;text-align:left;}
+.chk_confirm .chk_confirm_middle{font-size:20px;text-align:left;margin-left:90px;margin-top:-30px;line-height:30px;float:left}
+.chk_confirm .chk_confirm_right{font-size:20px;text-align:left;margin-left:280px;margin-top:-30px;line-height:30px;margin-bottom:20px;}
+
+
+/*.chk_guoffice {float:left;font-size:25px;text-align:left;margin:0 0 20px 10px;letter-spacing:10px;}*/
+.chk_guoffice_to{float:left;}
+
+.guoffice_Bold{}
