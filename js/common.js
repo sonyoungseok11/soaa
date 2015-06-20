@@ -1536,3 +1536,7 @@ function showChkContent(view){
 		document.getElementById("viewChkContent").style.display = "none";
 	}
 }
+
+function test(){
+
+}
